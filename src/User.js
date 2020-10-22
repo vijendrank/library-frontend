@@ -3,7 +3,6 @@ import axios from 'axios';
 import Modal from './Modal';
 import './User.css';
 
-
 class User extends React.Component {
 
     constructor(props) {
