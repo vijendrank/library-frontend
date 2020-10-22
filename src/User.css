@@ -1,0 +1,136 @@
+#users {
+    text-align: center;
+    font-family: sans-serif;
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 100%;
+}
+
+#users td,
+#users th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#users tr td input {
+    width: 80%;
+    padding: 8px;
+}
+
+#users tr:nth-child(even) {
+    background-color: #bb9494;
+}
+
+#users tr:hover {
+    background-color: #ddd;
+}
+
+#users th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #a78484;
+    color: white;
+}
+
+.action-add-btn {
+    background-color: #94bbb6;
+    font-size: 14px;
+    width: 150px;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    margin:20px;
+
+    display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+.action-add-btn:hover {
+    background-color: #7d9c98;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#users .action-update-btn {
+    background-color: #94bbb6;
+    font-size: 14px;
+    width: 80px;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    margin:5px;
+}
+
+#users .action-update-btn:hover {
+    background-color: #7d9c98;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#users .action-delete-btn {
+    background-color: #c92657;
+    font-size: 14px;
+    width: 80px;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    margin:5px;
+}
+
+#users .action-delete-btn:hover {
+    background-color: #a31f47;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#addForm {
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 50%;
+}
+
+#addForm td:nth-child(odd) {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #a78484;
+    color: white;
+}
+
+#addForm td {
+    border: 1px solid #ddd;
+}
+
+#addForm td input {
+    width: 98%;
+    height: 25px;
+    display: flex;
+}
+
+.action-close-btn,
+.action-reset-btn,
+.action-submit-btn {
+    background-color: #94bbb6;
+    font-size: 14px;
+    width: 80px;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    margin:5px;
+}
+
+.action-submit-btn:hover,
+.action-reset-btn:hover,
+.action-close-btn:hover {
+    background-color: #7d9c98;
+    cursor: pointer;
+}
+
+.add-user-form {
+margin-bottom: 30px;
+}

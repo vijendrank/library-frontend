@@ -1,0 +1,46 @@
+body {
+    background-color: #5a5956;
+    padding: 20px;
+    margin: 0;
+}
+
+h1, h2, p, ul, li {
+    font-family: sans-serif;
+}
+
+ul.header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+}
+
+ul.header {
+    background-color: #5f4b4b;
+    padding: 0;
+}
+
+ul.header li a {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+.content {
+    background-color: darkgrey;
+    padding: 20px;
+}
+
+.content h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.content li {
+    margin-bottom: 10px;
+}
+
+.active {
+    background-color: #72787c;
+}
